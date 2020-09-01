@@ -1,0 +1,32 @@
+body {
+    background-color:floralwhite;
+    color: rgb(116, 114, 102);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    background-color: black;
+    color: rgb(233, 84, 84);
+    padding: 10px 20px;
+}
+header >h1 {
+    letter-spacing: 5px;
+}
+h2 {
+    font-weight: bolder
+}
+article > h3 {
+    font-weight: lighter; 
+    color: black;
+}
+article > h3::before{
+    content: "\002329";
+    color: crimson;
+}
+article > h3::after{
+    content: "\00232A";
+    color: crimson;
+}
+footer {
+    background-color: cadetblue;
+    padding: 5px 10px;
+}

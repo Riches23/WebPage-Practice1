@@ -1,0 +1,40 @@
+section, header {
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 2px tomato solid;
+    min-height: 40px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer {
+    margin: 30px;
+    border: 1px dodgerblue solid;
+    min-height: 10px;
+    padding: 10px;
+}
+.firstbackground {
+    background-color: skyblue;
+}
+.secondbackground {
+    background-color: AntiqueWhite;
+}
+header.fifthbackground {
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+.thirdbackground {
+    background-color: lightslategray;
+}
+.fourthbackground {
+    background-color: #00FFFF;
+}
+.fifthbackground {
+    background-color: teal;
+}
