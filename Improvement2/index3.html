@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <u><h2>Contact Form</h2></u>
+    <form method="GET">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="c_name" required></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input type="tel" name="c_number" required></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="address" name="c_address"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="c_email" required></td>
+            </tr>
+            <tr>
+                <td>Message:</td>
+                <td><textarea type="text" name="c_message" rows="5" cols="30" ></textarea>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="c_send" value="Send Message"></td>
+            </tr>
+        </table>
+    </form> 
+    <hr>
+    <u><h2>Login Form</h2></u>
+    <form method="POST">
+        <table>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="u_name" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="u_pwd" required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="u_login" value="Login To Continue"></td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+    <u><h2>Registration Form</h2></u>
+    <form>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="r_name" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="r_email" required></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <td><input type="tel" name="r_phone" required></td>
+            </tr>
+            <tr>
+                <td>DOB:</td>
+                <td><input type="date" name="r_dob" required></td>
+            </tr>
+            <tr>
+                <td>Gender:
+                    <select required>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="r_gdr" value="Male">Male</td>
+                <td><input type="radio" name="r_gdr" value="Female">Female</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="registration" value="Register"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
